@@ -13,7 +13,6 @@ namespace uLearnMeCSharp
         private static string GetGreetingMessage(string name, double salary)
         {
             return "Hello, " + name + "," + " your salary is " + Math.Ceiling(salary);
-
         }
     }
     internal class Task2
@@ -26,7 +25,6 @@ namespace uLearnMeCSharp
         {
             Console.WriteLine(a);
         }
-
         static int GetSquare(int n)
         {
             return (int)Math.Pow(n, 2);
@@ -103,7 +101,6 @@ namespace uLearnMeCSharp
             Console.WriteLine(GetMinPowerOfTwoLargerThan(-2)); // => 1
             Console.WriteLine(GetMinPowerOfTwoLargerThan(-100));
             Console.WriteLine(GetMinPowerOfTwoLargerThan(100));
-
         }
         private static int GetMinPowerOfTwoLargerThan(int number)
         {
