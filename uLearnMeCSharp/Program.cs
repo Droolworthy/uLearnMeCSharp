@@ -15,6 +15,7 @@ namespace uLearnMeCSharp
             return "Hello, " + name + "," + " your salary is " + Math.Ceiling(salary);
         }
     }
+    
     internal class Task2
     {
         public static void Main()
@@ -43,6 +44,7 @@ namespace uLearnMeCSharp
             return text.Substring(text.Length / 2).Replace(" ", "");
         }
     }
+    
     internal class Task4
     {
         public static void Main()
@@ -74,6 +76,7 @@ namespace uLearnMeCSharp
             }
         }
     }
+    
     internal class Task5
     {
         public static void Main()
@@ -92,6 +95,7 @@ namespace uLearnMeCSharp
             return year % 400 == 0 || year % 4 == 0 && year % 100 != 0;
         }
     }
+    
     internal class Task6
     {
         public static void Main()
@@ -110,6 +114,7 @@ namespace uLearnMeCSharp
             return result;
         }
     }
+    
     internal class Task7
     {
         public static void Main()
